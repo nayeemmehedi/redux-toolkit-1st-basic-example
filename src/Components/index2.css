@@ -1,0 +1,87 @@
+.nayeem h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+  }
+  
+  .nayeem  .form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .nayeem  p {
+    color: #bf1650;
+  }
+  
+  .nayeem  p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  .nayeem  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(26, 17, 17);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .nayeem  label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: rgb(34, 11, 11);
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .nayeem  input[type="submit"] {
+    background: #ec5990;
+    color: rgb(43, 29, 29);
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  
+  .nayeem  input[type="submit"]:hover {
+    background: #bf1650;
+  }
+  
+  .nayeem  input[type="button"]:active,
+  .nayeem  input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .nayeem  input:disabled {
+    opacity: 0.4;
+  }
+  
+  .nayeem  input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  .nayeem  input[type="button"],
+  .nayeem  input[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+  .nayeem {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
